@@ -1,0 +1,114 @@
+[
+    {
+        "firstname": "Zofia",
+        "lastname": "Kozłowska",
+        "credentials": {
+            "login": "ithil_riddermark8011222",
+            "password": "$2a$12$MQPDosPoofKzfAKNKpADdBvug.pnicLukVEo/EOqAxNGTnHzjwuGw"
+        },
+        "contact": {
+            "email": "ithil_riddermark8011222Kozłowska621000059@onet.pl",
+            "phone": "4847984813"
+        },
+        "addresses": [
+            {
+                "city": "Biała Podlaska",
+                "zipcode": "20140",
+                "street": "Kamienna",
+                "house": "7"
+              
+            }
+        ],
+        "created_at": "13-07-2021",
+        "rentals": []
+    },
+    {
+        "firstname": "Elżbieta",
+        "lastname": "Chmielewska",
+        "credentials": {
+            "login": "hoarwell_ithil",
+            "password": "$2a$12$oiPZVDAxoJEjVPODPIm.WEfJegOxfgGgfItBlV/fctxUhTfvG/aJd"
+        },
+        "contact": {
+            "email": "hoarwell_ithilChmielewska82776209@gmail.com",
+            "phone": "4843272041"
+        },
+        "addresses": [
+            {
+                "city": "Biała Podlaska",
+                "zipcode": "20828",
+                "street": "Jana Kasprowicza",
+                "house": "1"                
+            }
+        ],
+        "created_at": "01-12-2021",
+        "rentals": []
+    },
+    {
+        "firstname": "Wanda",
+        "lastname": "Ostrowska",
+        "credentials": {
+            "login": "belfalas00401475",
+            "password": "$2a$12$XaJZaiPbivENWnjyRQWXFnKCpnQYpfhmy.qPHwAqNlmemTuX/WnxM"
+        },
+        "contact": {
+            "email": "belfalas0040147513109@gmail.com",
+            "phone": "4817057632"
+        },
+        "addresses": [
+            {
+                "city": "Biała Podlaska",
+                "zipcode": "20650",
+                "street": "Łąkowa",
+                "house": "41"                 
+            }
+        ],
+        "created_at": "15-05-2021",
+        "rentals": []
+    },
+    {
+        "firstname": "Artur",
+        "lastname": "Szymański",
+        "credentials": {
+            "login": "hobbiton377712",
+            "password": "$2a$12$C/lRulysdolkofEIR/rlRRueamKFfNAwOOywdWpXRjUf/OQPkHhP/"
+        },
+        "contact": {
+            "email": "hobbiton3777129260890@interia.pl",
+            "phone": "4879443978"
+        },
+        "addresses": [
+            {
+                "city": "Lubartów",
+                "zipcode": "20559",
+                "street": "Mikołaja Kopernika",
+                "house": "89"                   
+            }
+        ],
+        "created_at": "10-07-2021",
+        "rentals": []
+    },
+    {
+        "firstname": "Piotr",
+        "lastname": "Zawadzki",
+        "credentials": {
+            "login": "beorning_huorn",
+            "password": "$2a$12$jgJSyJNNPZZxcveAHLSvTaXaNNLVdVcFODIyjHapJbZiMCebhM.Q/"
+        },
+        "contact": {
+            "email": "beorning_huornZawadzki943826@onet.pl",
+            "phone": "4886897203"
+        },
+        "addresses": [
+            {
+                "city": "Biała Podlaska",
+                "zipcode": "20635",
+                "street": "Sosnowa",
+                "house": "20",
+                "flat": "2"                   
+            }
+        ],
+        "created_at": "20-07-2021",
+        "rentals": []
+    }
+]
