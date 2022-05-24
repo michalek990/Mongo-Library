@@ -1,0 +1,91 @@
+{
+ "name": "Electro",
+ "city": "Warsaw",
+ "address": "Aleje Jerozolimskie 45B",
+ "foundationDate":"2021-07-12",
+ "tags": ["computers", "DVD", "phones"],
+ "items": [{
+ "name": "computer",
+ "price": 6000,
+ "quantity": 45
+ }, {
+ "name": "phone XYZ",
+ "price": 3000,
+ "quantity": 1
+ }, {
+ "name": "phone YZX",
+ "price": 1500.6,
+"quantity": 5
+ }]
+ }
+
+
+
+
+ db.customers.insertOne({
+ "name": "Anna",
+ "surname": "Kowalska",
+ "email": "akowalska@gmail.com",
+ "favouriteShops":["Chocolate Paradise","Electro"]
+ })
+
+
+db.shops.insertMany([{"name": "Beauty","city": "Lublin",
+ "address": "Aleje Warszawskie 4/9",
+ "tags": [ "face", "nails"],
+ "iteam":[ {"name":"shampoo", "price": 15,"quantity": 45},
+ {"name": "lipstick", "price": 20,"quantity": 100 }]},
+ {"name":"Ecofood","city":"Krakow","address":"Rynek 78",
+ "tags":["vege","soya"],
+ "items":[{"name":"falafel","price":16,"quantity":6}]}])
+
+
+db.shops.insertOne({
+ "name": "Chocolate Paradise",
+ "city": "Lublin",
+"address": "Aleje Warszawskie 67",
+ "tags": [
+ "choco",
+ "sweets",
+ ],
+ "iteam": [
+ {
+ "name": "chocolate with orange",
+ "price": 8.50,
+ "quantity": 34
+ },
+ {
+ "name": "Polish sweets",
+ "price": 26,
+ "quantity": 87
+ }
+ ]
+ })
+
+
+
+
+
+
+
+
+
+
+
+
+autor book user review rental 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

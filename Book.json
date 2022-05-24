@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "628395cce9e043d11ed41912"
+  },
+  "idbn": "9788380625815",
+  "title": "Ja, Robot",
+  "published": "12-04-2019",
+  "pages": 240,
+  "description": "NULL",
+  "cover": "ścieżka do okładki",
+  "language": "Polski",
+  "cover_type": "MIĘKKA",
+  "publishers": [
+    {
+      "publishing_house_name": "Gnome Press",
+      "city": "Warszawa"
+    }
+  ],
+  "genres": [
+    {
+      "genre_name": "FANTASY"
+    }
+  ],
+  "authors": [
+    {
+      "authorId": "id autora",
+      "firstname": "Isaac",
+      "lastname": "Asimov"
+    }
+  ],
+  "series": {
+    "seriesId": "id serii - pole series jest opcjonalne",
+    "name": "nazwa serii",
+    "number": 1
+  },
+  "instock": {
+    "quantity": 1,
+    "books": [
+      {
+        "barcode": "093178775887",
+        "status": 1
+      }
+    ]
+  },
+  "parent": "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+},{
+  "_id": {
+    "$oid": "628396e2e9e043d11ed41913"
+  },
+  "idbn": "9788381882484",
+  "title": "Pozytonowy detektyw",
+  "published": "27-04-2013",
+  "pages": 216,
+  "description": "NULL",
+  "cover": "ścieżka do okładki",
+  "language": "Polski",
+  "cover_type": "TWARDA",
+  "publishers": [
+    {
+      "publishing_house_name": "Doubleday",
+      "city": "Londyn"
+    }
+  ],
+  "genres": [
+    {
+      "genre_name": "KRYMINAŁ"
+    }
+  ],
+  "authors": [
+    {
+      "authorId": "id autora",
+      "firstname": "Frank",
+      "lastnane": "Herbert"
+    }
+  ],
+  "series": {
+    "seriesId": "id serii - pole series jest opcjonalne",
+    "name": "nazwa serii",
+    "number": 1
+  },
+  "instock": {
+    "quantity": 1,
+    "books": [
+      {
+        "barcode": "093178775887",
+        "status": 1
+      }
+    ]
+  },
+  "parent": "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+},{
+  "_id": {
+    "$oid": "6283977de9e043d11ed41914"
+  },
+  "idbn": "9788378182320",
+  "title": "Nagie słońce",
+  "published": "1-01-20053",
+  "pages": 320,
+  "description": "NULL",
+  "cover": "ścieżka do okładki",
+  "language": "Angielski",
+  "cover_type": "MIĘKKA",
+  "publishers": [
+    {
+      "publishing_house_name": "W.A.B.",
+      "city": "Barcelona"
+    }
+  ],
+  "genres": [
+    {
+      "genre_name": "DRAMAT"
+    }
+  ],
+  "authors": [
+    {
+      "authorId": "id autora",
+      "firstname": "Stephen",
+      "lastnane": "King"
+    }
+  ],
+  "series": {
+    "seriesId": "id serii - pole series jest opcjonalne",
+    "name": "nazwa serii",
+    "number": 1
+  },
+  "instock": {
+    "quantity": 1,
+    "books": [
+      {
+        "barcode": "093178775327",
+        "status": 1
+      }
+    ]
+  },
+  "parent": "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+},{
+  "_id": {
+    "$oid": "6283980ee9e043d11ed41915"
+  },
+  "idbn": "9788375780673",
+  "title": "Chrzest ognia",
+  "published": "28-10-2014",
+  "pages": 382,
+  "description": "NULL",
+  "cover": "ścieżka do okładki",
+  "language": "Polski",
+  "cover_type": "ZINTEGROWANA",
+  "publishers": [
+    {
+      "publishing_house_name": "W.A.B.",
+      "city": "Barcelona"
+    }
+  ],
+  "genres": [
+    {
+      "genre_name": "DRAMAT"
+    }
+  ],
+  "authors": [
+    {
+      "authorId": "id autora",
+      "firstname": "J.R.R.",
+      "lastnane": "Tolkien"
+    }
+  ],
+  "series": {
+    "seriesId": "id serii - pole series jest opcjonalne",
+    "name": "nazwa serii",
+    "number": 1
+  },
+  "instock": {
+    "quantity": 1,
+    "books": [
+      {
+        "barcode": "093328775327",
+        "status": 1
+      }
+    ]
+  },
+  "parent": "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+},{
+  "_id": {
+    "$oid": "628398a0e9e043d11ed41916"
+  },
+  "idbn": "9788381162647",
+  "title": "Hobbit",
+  "published": "12-02-2018",
+  "pages": 304,
+  "description": "NULL",
+  "cover": "ścieżka do okładki",
+  "language": "Polski",
+  "cover_type": "ZINTEGROWANA",
+  "publishers": [
+    {
+      "publishing_house_name": "Albatros",
+      "city": "Poznań"
+    }
+  ],
+  "genres": [
+    {
+      "genre_name": "FANTASY"
+    }
+  ],
+  "authors": [
+    {
+      "authorId": "id autora",
+      "firstname": "Andrzej",
+      "lastnane": "Sapkowski"
+    }
+  ],
+  "series": {
+    "seriesId": "1",
+    "name": "Hobbit",
+    "number": 1
+  },
+  "instock": {
+    "quantity": 1,
+    "books": [
+      {
+        "barcode": "695560426285",
+        "status": 1
+      }
+    ]
+  },
+  "parent": "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+}]
