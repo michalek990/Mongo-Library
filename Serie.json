@@ -1,0 +1,178 @@
+[{
+  "_id": {
+    "$oid": "62839a4ae9e043d11ed4191a"
+  },
+  "name": "Hobbit",
+  "books": [
+    {
+      "bookId": "9788381162647",
+      "name": "Hobbit",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 1
+    },
+    {
+      "bookId": "9788381162648",
+      "name": "Hobbit 2",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62839c17e9e043d11ed4191b"
+  },
+  "name": "Wiedźmin",
+  "books": [
+    {
+      "bookId": "9788381161234",
+      "name": "Król elfów",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 1
+    },
+    {
+      "bookId": "9788381162345",
+      "name": "Czas propagandy",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 2
+    },
+    {
+      "bookId": "9788381165675",
+      "name": "Chrzest ognia",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 3
+    },
+    {
+      "bookId": "9788381165632",
+      "name": "Wieża Jaskółki",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 4
+    },
+    {
+      "bookId": "9788381235632",
+      "name": "Pani Jeziora",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Andrzej",
+          "lastnane": "Sapkowski"
+        }
+      ],
+      "number": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62839db2e9e043d11ed4191c"
+  },
+  "name": "Roboty",
+  "books": [
+    {
+      "bookId": "9788312162648",
+      "name": "Ja, robot",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 0.1
+    },
+    {
+      "bookId": "9788381162654",
+      "name": "Pozytonowy detektyw",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 1
+    },
+    {
+      "bookId": "2388381162654",
+      "name": "Nagie słońce",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 2
+    },
+    {
+      "bookId": "2388384162654",
+      "name": "Świat robotów",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 3
+    },
+    {
+      "bookId": "2382384162654",
+      "name": "Roboty z planety świtu",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 4
+    },
+    {
+      "bookId": "2382332462654",
+      "name": "Roboty i Imperium",
+      "authors": [
+        {
+          "authorId": "id autora",
+          "firstname": "Isaac",
+          "lastnane": "Asimov"
+        }
+      ],
+      "number": 5
+    }
+  ]
+}]

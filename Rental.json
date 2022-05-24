@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "62840e626152abf7141b159c"
+  },
+  "books": [
+    {
+      "name": "Ja, Robot",
+      "barcode": "093178775887"
+    }
+  ],
+  "user": {
+    "userId": "",
+    "username": "",
+    "email": "ithil_riddermark8011222Kozłowska621000059@onet.pl",
+    "phone": "4847984813"
+  },
+  "booking_date_start": "02-02-2019",
+  "booking_date_end": "02-03-2019",
+  "rental_date_start": "05-02-2019",
+  "rental_date_till": "05-04-2019",
+  "rental_date_end": "03-04-2019",
+  "rental_status": "ODDANA"
+},{
+  "_id": {
+    "$oid": "62840ef86152abf7141b159d"
+  },
+  "books": [
+    {
+      "name": "Pozytonowy detektyw",
+      "barcode": "093178775887"
+    }
+  ],
+  "user": {
+    "userId": "",
+    "username": "",
+    "email": "hoarwell_ithilChmielewska82776209@gmail.com",
+    "phone": "4843272041"
+  },
+  "booking_date_start": "22-04-2019",
+  "booking_date_end": "02-07-2019",
+  "rental_date_start": "04-05-2019",
+  "rental_date_till": "05-08-2019",
+  "rental_date_end": "03-06-2019",
+  "rental_status": "ODDANA"
+},{
+  "_id": {
+    "$oid": "62840f766152abf7141b159e"
+  },
+  "books": [
+    {
+      "name": "Nagie słońce",
+      "barcode": "093178775327"
+    }
+  ],
+  "user": {
+    "userId": "",
+    "username": "",
+    "email": "hobbiton3777129260890@interia.pl",
+    "phone": "4879443978"
+  },
+  "rental_date_start": "05-02-2020",
+  "rental_date_till": "05-04-2020",
+  "rental_status": "NIEODDANA"
+},{
+  "_id": {
+    "$oid": "62840fd36152abf7141b159f"
+  },
+  "books": [
+    {
+      "name": "Chrzest ognia",
+      "barcode": "093328775327"
+    }
+  ],
+  "user": {
+    "userId": "",
+    "username": "",
+    "email": "beorning_huornZawadzki943826@onet.pl",
+    "phone": "4886897203"
+  },
+  "rental_date_start": "25-06-2021",
+  "rental_date_till": "27-09-2021",
+  "rental_date_end": "28-09-2021",
+  "rental_status": "ODDANA Z OPÓŹNIENIEM"
+},{
+  "_id": {
+    "$oid": "628410086152abf7141b15a0"
+  },
+  "books": [
+    {
+      "name": "Hobbit",
+      "barcode": "695560426285"
+    }
+  ],
+  "user": {
+    "userId": "",
+    "username": "",
+    "email": "ithil_riddermark8011222Kozłowska621000059@onet.pl",
+    "phone": "4847984813"
+  },
+  "booking_date_start": "02-02-2022",
+  "booking_date_end": "02-03-2022",
+  "rental_date_start": "15-02-2022",
+  "rental_date_till": "15-05-2022",
+  "rental_date_end": "23-04-2022",
+  "rental_status": "ODDANA"
+}]
