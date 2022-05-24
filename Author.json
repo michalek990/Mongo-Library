@@ -1,0 +1,59 @@
+[{
+    "firstname": "Isaac",
+    "lastname": "Asimov",
+    "description": "Amerykański pisarz i profesor biochemii pochodzenia rosyjsko-żydowskiego. Największą popularność zdobył jako autor science fiction.Amerykański pisarz i profesor biochemii pochodzenia rosyjsko-żydowskiego. Największą popularność zdobył jako autor science fiction.",
+    "birth_date": "2-01-1920",
+    "death_date": "6-04-1992",
+    "country": "USA"
+},
+{
+    "firstname": "Frank",
+    "lastname": "Herbert",
+    "description": "Amerykański pisarz science fiction. Znany przede wszystkim jako autor wielokrotnie nagradzanej serii powieści Kroniki Diuny.",
+    "birth_date": "8-09-1920",
+    "death_date": "11-02-1986",
+    "country": "USA"
+},
+{
+    "firstname": "George",
+    "lastname": "Orwell",
+    "birth_date": "25-06-1903",
+    "death_date": "21-01-1950",
+    "country": "Wielka Brytania"
+},
+{
+    "firstname": "Stephen",
+    "lastname": "King",
+    "description": "Amerykański pisarz specjalizujący się w literaturze grozy.",
+    "birth_date": "21-10-1947",
+    "country": "USA"
+},
+{
+    "firstname": "J.R.R.",
+    "lastname": "Tolkien",
+    "description": "Brytyjski pisarz oraz profesor filologii klasycznej i literatury staroangielskiej na University of Oxford. Jako autor powieści Władca Pierścieni, której akcja rozgrywa się w mitycznym świecie Śródziemia, spopularyzował literaturę fantasy.",
+    "birth_date": "3-01-1892",
+    "death_date": "2-10-1973",
+    "country": "Wielka Brytania"
+},
+{
+    "firstname": "Ousman",
+    "lastname": "Umar",
+    "birth_date": "12-08-1988",
+    "country": "Ghana"
+},
+{
+    "firstname": "Andrzej",
+    "lastname": "Sapkowski",
+    "description": "Polski pisarz fantasy, z wykształcenia ekonomista. Twórca postaci wiedźmina. Jest najczęściej po Lemie tłumaczonym polskim autorem fantastyki.",
+    "birth_date": "21-06-1948",
+    "country": "Polska"
+},
+{
+    "firstname": "Brian",
+    "lastname": "Herbert",
+    "description": "Amerykański pisarz science-fiction, jako syn Franka Herberta i wspólnie z Kevinem J. Andersonem kontynuator sagi o Diunie.",
+    "birth_date": "29-06-1947",
+    "country": "USA"
+}
+]
