@@ -1,0 +1,123 @@
+//update user
+db.User.updateOne(
+    {"firstname" : "Zofia"},
+ 
+    {
+      $set:{
+      "lastname" : "Nowaczkiewicz",
+      "addresses.0.city" : "Lublin",
+	"credentials.login" : "Nowi",
+	"contact.email" : "nowaczkiewicz@gmail.com",
+	"contact.phone" : "123456123",
+	"addresses.0.street" : "Nadbystrzycka",
+	"created_at" : "14-05-2020"
+      }
+    }
+ 
+)
+
+//update author
+db.Author.updateOne(
+	{_id: ObjectId("629cb4160fa977e78a75047a")},
+
+	{
+	  $set:{
+		"description" : "Bardzo zdolny pisarz, polecam",
+		"country" : "England",
+		"birth_date" : "03-03-1930"
+	  }
+	}
+
+)
+
+//update book
+db.Book.updateOne(
+{_id: ObjectId("6283977de9e043d11ed41914")},
+
+	{
+	  $set:{
+		"idbn" : "345678912334",
+		"pages" : 420,
+		"language" : "Spanish",
+		"cover_type" : "TWARDA",
+		"publishers.0.publishing_house_name" : "Nowa Era",
+		"authors.0.firstname" : "Stefan", 
+		"instock.books.0.barcode" : "123123123123",
+		"publishers.0.city" : "London"
+	  }
+	}
+
+)
+
+//update Rental
+
+db.Rental.updateOne(
+{_id: ObjectId("62840ef86152abf7141b159d")},
+
+	{
+	  $set:{
+		"books.0.name" : "Wiedźmin",
+		"books.0.barcode" : "123123123123123",
+		"user.username" : "MagicznyTomek",
+		"user.phone" : "456780920",
+		"booking_date_start" : "21-03-2019",
+		"rental_date_start" : "05-06-2019",
+		"rental_date_end" : "21-09-2019",
+		"rental_status" : "NIEODDANA"
+	  }
+	}
+
+)
+
+
+//update Review
+
+db.Review.updateOne(
+{_id: ObjectId("628be78f5570c9c678720b65")},
+
+	{
+	  $set:{
+		"rate" : 5,
+		"book.bookId" : "628398a0e9e043d11ed41916",
+		"book.name" : "Hobbit",
+		"user.userId" : "629cb4360fa977e78a75048c",
+		"user.username" : "beorning_huorn"
+	  }
+	}
+)
+
+
+//update Serie
+
+db.Serie.updateOne(
+{"name": "Wiedźmin"},
+
+	{
+	  $set:{
+		"books.1.name" : "Wiedźmin 1",
+		"books.2.authors.0.firstname" : "Marek",
+		"books.3.number" : "15",
+		"books.4.authors.0.lastname" : "Kowalski"
+	  }
+	}
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
