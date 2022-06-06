@@ -1,0 +1,93 @@
+//insert user 
+
+db.User.insertOne(
+	{
+	"firstname" : "Marek",
+	"lastname" : "Mostowiak",
+	credentials : {login : "Mareczek123", password : "$2a$12$oiPasdasxcEjVPODPIm.WEfJegOxfgGgfItBlV/fctxUhTfvG/aJd"},
+	contact : {email : "mareczek@gmail.com", phone : "123789090"},
+	adressess : [{city : "Lublin", zipcode : "211212", street : "Łazienkowska", house : "12"}],
+	"created_at" : "14-05-2020"
+	}
+)
+
+//insert book
+db.Book.insertOne(
+	{
+	"idbn" : "5645434365457574",
+	"title" : "Harry Potter i Czara Ognia",
+	"published" : "25-08-2008",
+	"pages" : 190,
+	"description" : "NULL",
+	"cover" : "ścieżka do okładki",
+	"language" : "Polski",
+	"cover_type" : "TWARDA",
+	publishers : [{publishing_house_name : "Gnome Press", city : "Oslo"}],
+	genres : [{genre_name : "FANTASY"}],
+	authors : [{authorId : "FANTASY", firstname : "J.K.", lastname : "Rowling"}],
+	instock : {
+		 quantity : 1,
+		 books : [{barcode : "54634565474", status : 1}]
+		  },
+	parent : "Referencja do korzenia drzewa - pierwszej książki która została dodana do bazy danych a które jest innym wydaniem tej książki, jeżeli książka jest korzeniem to to pole jest null"
+	}
+
+)
+
+//insert author
+
+db.Author.insertOne(
+	{
+	"firstname" : "Adam",
+	"lastname" : "Mieckiewicz",
+	"description" : "Polski poeta, działacz polityczny, publicysta, tłumacz, filozof, działacz religijny, mistyk, organizator i dowódca wojskowy, nauczyciel akademicki.",
+	"birth_date" : "24-12-1798",
+	"death_date" : "26-11-1855",
+	"country" : "Polska"
+ 	}
+)
+
+//insert Rental
+
+db.Rental.insertOne(
+	{
+	books : [{name : "Harry Potter i Czara Ognia", barcode : "12354342342"}],
+	user : {userId: "629ce3399d91174dc5dbb928", username : "Mareczek123", email : "mareczek@gmail.com", phone : "123789090"},
+ 	"booking_date_start" : "03-12-2019",
+	"rental_date_start" : "13-12-2019",
+	"rental_date_till" : "02-02-2020",
+	"rental_status" : "NIEODDANA"
+	}
+)
+
+//insert Review
+
+db.Review.insertOne(
+	{
+	book : {bookId: "629ce7c39d91174dc5dbb92a", name: "Harry Potter i Czara Ognia"},
+	user : {userId: "629ce3399d91174dc5dbb928", username: "Mareczek123"},
+	rate : 4,
+	contant : "Bardzo wciągająca książka!",
+	"created_at" : new ISODate("2021-03-12T00:00:00.000+00:00"),
+	"updated_at" :  new ISODate("2022-06-03T00:00:00.000+00:00")
+	}
+)
+
+//insert series
+
+db.Serie.insertOne(
+	{
+	name : "Harry Potter",
+	books : [{bookId : "123145342", name: "Harry Potter i Kamień Filozoficzny",
+			authors: [{authordId: "123542352", fistname: "J.K", lastname: "Rowling"}], "number" : "1"},
+		   {bookId : "543534", name: "Harry Potter i Komnata Tajemnic",
+			authors: [{authordId: "123542352", fistname: "J.K", lastname: "Rowling"}], "number" : "2"},
+		   {bookId : "786787", name: "Harry Potter i Więzień Askabanu",
+			authors: [{authordId: "123542352", fistname: "J.K", lastname: "Rowling"}], "number" : "3"},
+		   {bookId : "546890", name: "Harry Potter i Czara Ognia",
+			authors: [{authordId: "123542352", fistname: "J.K", lastname: "Rowling"}], "number" : "4"}]
+		  
+		 
+	
+	}
+)
