@@ -1,0 +1,41 @@
+//delete from author
+
+db.Author.remove(
+{"firstname" : "Adam"}
+)
+
+//delete from user
+
+db.User.remove(
+	 {"addresses.0.city" : "Biała Podlaska"}
+)
+
+//delete from Book
+
+db.Book.deleteMany(
+	{"genres.0.genre_name" : "FANTASY"}
+
+)
+
+//delete from Rental
+
+db.Rental.remove(
+	{"rental_status" : "NIEODDANA",
+	 "user.username" : "MagicznyTomek"}
+	
+
+)
+
+//delete from review
+db.Review.remove(
+	{"book.name" : "Hobbit",
+	 "rate" : 5,
+	 "user.username" : "beorning_huorn"
+}
+)
+
+//delete form serie
+
+db.Serie.remove(
+	{"books.1.authors.0.firstname": "J.K"}
+)
